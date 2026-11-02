@@ -1,0 +1,49 @@
+/* ==========================================================
+   AMORA VET — DESIGN TOKENS (v3 · identidade original)
+   Laranja protagonista no hero; bege e branco nas seções;
+   amarelo e laranja em detalhes; marrom para texto.
+   ========================================================== */
+:root {
+  /* Marca */
+  --c-laranja: #FF893B;        /* hero, CTAs (texto marrom: 6,4:1) */
+  --c-laranja-2: #FF9C35;      /* hover de CTA */
+  --c-laranja-texto: #A8480C;  /* laranja para textos pequenos (5,6:1 sobre branco) */
+  --c-laranja-claro: #FFE7D4;  /* fundos de ícone */
+  --c-amarelo: #F4B900;        /* círculo do hero, pontos e detalhes (nunca texto) */
+  --c-amarelo-claro: #FFF1C4;
+  --c-marrom: #30251F;         /* títulos, textos, botão escuro */
+
+  /* Neutros */
+  --c-superficie: #FFFFFF;
+  --c-fundo: #F7EBDD;          /* bege claro das seções */
+  --c-bege: #F7EBDD;
+  --c-neutro: #FCF6EF;         /* placeholders, áreas suaves */
+  --c-foto: #FFF8F0;           /* fundo das fotos recortadas */
+  --c-texto: #30251F;
+  --c-texto-2: #6B5D53;        /* 6,4:1 sobre branco · 5,3:1 sobre bege */
+  --c-linha: #EBDCCB;
+
+  /* Tipografia */
+  --f-display: 'Sora', ui-sans-serif, system-ui, sans-serif;
+  --f-body: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  --f-hand: 'Caveat', 'Segoe Script', cursive;
+  --fs-sm: 0.9375rem;
+  --fs-md: 1.0625rem;
+  --fs-lg: 1.125rem;
+  --fs-h3: clamp(1.25rem, 1.15rem + 0.4vw, 1.5rem);    /* 20 → 24 */
+  --fs-h2: clamp(1.75rem, 1.35rem + 1.6vw, 2.625rem);  /* 28 → 42 */
+  --fs-h1: clamp(2.125rem, 1.35rem + 2.9vw, 3.5rem);   /* 34 → 56 */
+
+  --section-y: clamp(4.5rem, 3.2rem + 5vw, 8rem);
+
+  --r-sm: 12px; --r-md: 18px; --r-lg: 28px; --r-xl: 40px; --r-pill: 999px;
+  --sh-soft: 0 1px 2px rgba(48, 37, 31, 0.05), 0 8px 24px -12px rgba(48, 37, 31, 0.16);
+  --sh-lift: 0 2px 4px rgba(48, 37, 31, 0.05), 0 24px 48px -24px rgba(48, 37, 31, 0.28);
+
+  --d-fast: 160ms; --d-base: 280ms; --d-slow: 560ms;
+  --e-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --e-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+  --z-content: 10; --z-header: 50; --z-overlay: 80; --z-modal: 90;
+  color-scheme: light;
+}
